@@ -1,0 +1,302 @@
+    @media screen and (min-width: 1280px) {
+        .container {
+            width: 1280px;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    body {
+        background-color: #f7f7f7;
+    }
+    
+    .mainContent {
+        background-color: #fff;
+    }
+    /* 阿里百秀左侧导航栏 */
+    
+    .navbar-default .navbar-right .dropdown-menu a {
+        text-align: center;
+    }
+    
+    .ali-nav {
+        padding-left: 0;
+    }
+    
+    .ali-nav .logo {
+        display: block;
+        width: 100%;
+        background-color: #429AD9;
+    }
+    
+    .ali-nav .logo img {
+        margin: 0 auto;
+        height: 100%
+    }
+    
+    .ali-nav ul {
+        background-color: #EEEEEE;
+    }
+    
+    .ali-nav ul li {
+        height: 50px;
+    }
+    
+    .ali-nav ul li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-left: 30px;
+        color: #666;
+        font-size: 16px;
+        line-height: 50px;
+        text-decoration: none;
+    }
+    
+    .ali-nav ul li a span {
+        /* vertical-align: middle; */
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    
+    .ali-nav ul li a:hover {
+        background-color: #fff;
+    }
+    /* 小屏导航栏 */
+    
+    .ali-nav2 ul li,
+    .ali-nav3 ul li {
+        float: left;
+        width: 20%;
+        background-color: #EEEEEE;
+    }
+    
+    .ali-nav2 ul,
+    .ali-nav3 ul {
+        border-bottom: 1px solid #ccc;
+    }
+    /* 超小屏导航栏 */
+    
+    .ali-nav3 .logo {
+        height: 50px;
+    }
+    
+    .ali-nav3 ul li a {
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    
+    .ali-nav ul li a span {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    /* 阿里百秀中部新闻 */
+    /* 顶部图片新闻推荐 */
+    /* 左侧阿里百秀大图 */
+    
+    .newsCon1 {
+        margin-bottom: 10px;
+    }
+    
+    .newsCon1 .news-left a,
+    .newsCon1 .news-right a {
+        display: block;
+        position: relative;
+    }
+    
+    .newsCon1 .news-left .carousel>a {
+        position: absolute;
+    }
+    
+    .newsCon1 .news-left .carousel-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 41px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 41px;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    
+    .newsCon1 .news-left .carousel-indicators {
+        bottom: 30px;
+    }
+    
+    .newsCon1 .news-left .bottom-bar,
+    .newsCon1 .news-right .bottom-bar {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 41px;
+        align-items: center;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .5);
+        /* opacity: .5; */
+    }
+    
+    .newsCon1 .news-left .bottom-bar p,
+    .newsCon1 .news-right .bottom-bar p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+        font-size: 20px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .newsCon1 .news-right .bottom-bar p {
+        font-size: 12px;
+    }
+    
+    .newsCon1 .news-left img {
+        display: block;
+        width: 100%;
+        height: 266px;
+    }
+    /* 新闻右侧图片矩阵 */
+    
+    .newsCon1 .news-right {
+        padding-left: 0;
+    }
+    
+    .newsCon1 .news-right ul li {
+        float: left;
+        width: 50%;
+    }
+    
+    .newsCon1 .news-right ul li:nth-of-type(odd) {
+        padding-right: 10px;
+    }
+    
+    .newsCon1 .news-right ul li:nth-of-type(n+3) {
+        padding-top: 10px;
+    }
+    
+    .newsCon1 .news-right ul li a img {
+        display: block;
+        width: 100%;
+        height: 128px;
+    }
+    /* 新闻列表 */
+    
+    .newsCon2 li {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border-top: 1px solid #ccc;
+    }
+    
+    .newsCon2 li h3 a {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .newsCon2 li .row {
+        margin: 0;
+    }
+    
+    .newsCon2 li .news-text {
+        padding-left: 0;
+    }
+    
+    .newsCon2 li .news-img {
+        padding-top: 10px;
+        padding-right: 0;
+        /* padding-left: 28px; */
+    }
+    
+    .newsCon2 li .news-img img {
+        display: block;
+        width: 100%;
+    }
+    /* 阿里百秀超小屏中部新闻  */
+    
+    .newsContent3 {
+        padding: 0 30px;
+        margin-top: 10px;
+    }
+    
+    .newsContent3 .news-left img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .newsContent3 .news-right ul li a img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .newsContent3 .news-left {
+        margin-bottom: 10px;
+    }
+    
+    .newsContent3 .newsCon2 ul li .news-text h3 {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    /* 右侧外部图片链接 */
+    
+    .otherLinks .link2 {
+        margin-top: 20px;
+    }
+    
+    .otherLinks .link2 a {
+        display: block;
+        border: 1px solid #ccc;
+        text-decoration: none;
+    }
+    
+    .otherLinks .link2 a .hot-search {
+        color: #fff;
+        border-radius: 0;
+    }
+    
+    .otherLinks .link2 a h4 {
+        padding-top: 20px;
+    }
+    
+    .otherLinks .link2 a p {
+        padding-bottom: 20px;
+        color: #666;
+        font-size: 12px;
+    }
+    
+    .otherLinks .link2 a:hover p {
+        color: #31708F;
+    }
+    /* 小屏右侧外部图片链接 */
+    
+    .otherLinks2 {
+        margin-top: 10px;
+    }
+    
+    .otherLinks2 .links {
+        padding: 0 15px;
+        padding-bottom: 10px;
+    }
+    
+    .otherLinks2 .link1 a {
+        display: block;
+    }
+    
+    .otherLinks2 .link1 img {
+        width: 100%;
+    }
+    
+    .otherLinks2 .link2 a {
+        padding-left: 20px;
+    }
